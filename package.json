@@ -1,6 +1,6 @@
 {
   "name": "@codernex/nexpress",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Multi-threaded image batch processor CLI",
   "main": "dist/index.js",
   "type": "module",
@@ -26,7 +26,8 @@
   "license": "ISC",
   "dependencies": {
     "sharp": "^0.34.5",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
