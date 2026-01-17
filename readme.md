@@ -4,7 +4,7 @@ A high-performance, multi-threaded command-line tool built with Node.js and Type
 
 <div align="center">
   <img src="./screenshot.png" alt="NexPress CLI Demo" width="800" />
-  <p><em>Proof of Work: Converting images with 40% space savings</em></p>
+  <p><em>Proof of Work: Reduced a 7.4MB raw image to just 0.19MB (~97% reduction)</em></p>
 </div>
 
 ## 🚀 Features
