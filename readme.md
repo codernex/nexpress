@@ -2,6 +2,11 @@
 
 A high-performance, multi-threaded command-line tool built with Node.js and TypeScript. It converts and compresses batches of images into efficient **WebP** format using worker threads for maximum speed.
 
+<div align="center">
+  <img src="./screenshot.png" alt="NexPress CLI Demo" width="800" />
+  <p><em>Proof of Work: Converting images with 40% space savings</em></p>
+</div>
+
 ## 🚀 Features
 
 - **Multi-threaded Processing:** Uses Node.js `worker_threads` to process images in parallel, utilizing all available CPU cores.
