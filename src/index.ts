@@ -15,6 +15,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const homeDir = os.homedir();
 const acceptableArgs = ["--input", "--output", "--quality", "--help"];
+const workerFileName = `image-processor${path.extname(__filename)}`;
+const workerPath = path.join(__dirname, workerFileName);
 
 const args = process.argv.slice(2); // Use slice instead of splice
 
@@ -95,8 +97,9 @@ allImages.forEach((fileName) => {
   console.log("Processing:", fileName);
 
   const workerId = uuidV4();
-  const worker = new Worker(path.join(__dirname, "image-processor.ts"), {
+  const worker = new Worker(workerPath, {
     // Use .js file
+    execArgv: process.execArgv,
     workerData: {
       input: path.join(inputPath, fileName),
       output: outputPath,
