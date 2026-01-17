@@ -1,9 +1,12 @@
 {
-  "name": "nexpress",
+  "name": "@codernex/nexpress",
   "version": "1.0.0",
   "description": "Multi-threaded image batch processor CLI",
   "main": "dist/index.js",
   "type": "module",
+  "files": [
+    "dist"
+  ],
   "bin": {
     "nexpress": "./dist/index.js"
   },
@@ -25,13 +28,12 @@
     "axios": "^1.13.2",
     "cheerio": "^1.1.2",
     "sharp": "^0.34.5",
+    "typescript": "^5.9.3",
     "uuid": "^11.0.5"
   },
   "devDependencies": {
     "@types/node": "^22.10.7",
     "@types/uuid": "^10.0.0",
-    "ts-node": "^10.9.2",
-    "tsc": "^2.0.4",
-    "typescript": "^5.7.3"
+    "ts-node": "^10.9.2"
   }
 }

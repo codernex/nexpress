@@ -17,10 +17,10 @@ You can use NexPress in three ways:
 
 ### 1. Global Installation (Recommended)
 
-This installs the `nexpress` command system-wide.
+This installs the `@codernex/nexpress` command system-wide.
 
 ```bash
-npm install -g nexpress
+npm install -g @codernex/nexpress
 
 ```
 
@@ -29,7 +29,7 @@ npm install -g nexpress
 Use it immediately without installing.
 
 ```bash
-npx nexpress --input=Desktop/photos --output=Desktop/compressed
+npx @codernex/nexpress --input=Desktop/photos --output=Desktop/compressed
 
 ```
 
