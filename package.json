@@ -1,6 +1,6 @@
 {
   "name": "@codernex/nexpress",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Multi-threaded image batch processor CLI",
   "main": "dist/index.js",
   "type": "module",
