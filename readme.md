@@ -3,7 +3,7 @@
 A high-performance, multi-threaded command-line tool built with Node.js and TypeScript. It converts and compresses batches of images into efficient **WebP** format using worker threads for maximum speed.
 
 <div align="center">
-  <img src="./screenshot.png" alt="NexPress CLI Demo" width="800" />
+  <img src="https://github.com/codernex/nexpress/blob/main/screenshot.png" alt="NexPress CLI Demo" width="800" />
   <p><em>Proof of Work: Reduced a 7.4MB raw image to just 0.19MB (~97% reduction)</em></p>
 </div>
 
