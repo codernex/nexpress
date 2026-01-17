@@ -37,7 +37,7 @@ npx nexpress --input=Desktop/photos --output=Desktop/compressed
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/codernex/nexpress
 cd nexpress
 
 # Install dependencies
@@ -119,7 +119,7 @@ If you want to contribute or modify the code:
 1. **Clone and Install:**
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/codernex/nexpress
 npm install
 
 ```
